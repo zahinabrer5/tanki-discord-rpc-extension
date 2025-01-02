@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Tanki Online RPC Trigger",
+    "version": "1.0",
+    "description": "Add RPC for Tanki Online to Discord",
+    "permissions": [
+        "tabs"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "icons": {
+        "16": "assets/icon_16.png",
+        "48": "assets/icon_48.png",
+        "128": "assets/icon_128.png"
+    },
+    "browser_action": {
+        "default_icon": "assets/icon.png"
+    }
+}
